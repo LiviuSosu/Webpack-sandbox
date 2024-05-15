@@ -98,7 +98,8 @@
     "wildcard": "^2.0.1"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "webpack --config webpack.config.js"
   },
   "repository": {
     "type": "git",
