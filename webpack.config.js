@@ -1,6 +1,6 @@
 module.exports = {
     mode: 'development',
     resolve: {
-        extensions: ['.ts', '.js', 'tsx'],
+        extensions: ['.ts', '.js', 'tsx']
       }
   };
