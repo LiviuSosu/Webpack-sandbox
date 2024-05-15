@@ -1,6 +1,3 @@
 module.exports = {
-    mode: 'development',
-    resolve: {
-        extensions: ['.ts', '.js', 'tsx']
-      }
+    mode: 'development'
   };
