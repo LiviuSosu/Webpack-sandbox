@@ -28,12 +28,11 @@ jobs:
         npm install -D webpack-cli
         npm install  webpack-cli -g
         npm install webpack
+        npm install jest
     #npx webpack
     
     - name: Run uni tests
       run: |
-        npm config set user 0
-        npm config set unsafe-perm true
         npm run test
 #npm config set user 0
 #npm config set unsafe-perm true
